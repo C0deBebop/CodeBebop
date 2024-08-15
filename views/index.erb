@@ -1,1 +1,121 @@
 <%= erb :'partials/header' %>
+  <div id="masthead">
+    <h1>A journey in code,art and design</h1>  
+  </div>
+  <div id="page-banner"><span>//Web Developer //Artist //Designer</span></div>  
+<main>
+  <section id="about-container">
+    <div id="about">
+       <img src="/images/me.gif">
+    <h3>//Identity</h3>  
+    <p>
+        Hello, I’m Rocky! AKA Code Bebop. I’m a Web Developer/Artist and Designer. I enjoy creating minimialist and illustrative
+        UI’s and writing frontend and backend code. I’m not opinionated when it comes to programming languages but I do prefer micro 
+        frameworks like Sinatra, Flask, FastAPI and the like for building web apps. I’m also a fan of Hypermedia systems, vanilla 
+        JavaScript, CSS and I specialize in information systems but I’ve  been  learning a bit about distributed systems. They’re pretty 
+        cool :). Code Bebop is where I share my journey in life, web development, technology as a whole, art and design. I’m passionate
+        about learning and teaching others so learning courses will be available in the future so sign up here for updates. When I’m not
+        working on sharpening my programming skills or some artful endeavor I enjoy traveling, watching boxing, cycling, studying 
+        Thai and Spanish.
+    </p>    
+    </div>
+  </section>    
+  <section id="recent-post-container">  
+    <div id="recent-post-header"> 
+      <h3>//Recent posts</h3>
+      <div class="post-flex">
+        <div>No</div>
+        <div>Name</div>
+        <div>Category</div>
+        <div>Date</div>
+      </div>
+    </div>  
+    <div id="recent-posts">
+        <div class="post-flex">
+             <div>1</div>
+             <div>Codescape</div>
+             <div>Web app</div>
+             <div>07.08.24</div>
+             <a href="">+</a>
+             <article class="item">
+                 <div class="post-flex">
+                  <div class="left-column">
+                     <!-- if an image exists -->
+                  </div>
+                   <div class="right-column">
+                      <h3>DiscoBot <span>06.02.24</span></h3>
+                      <p>Discobot plays random music from your selected genre</p>
+                      <a href=""></a>
+                      <ul>
+                        <li><a href="">Github repo</a></li>
+                        <li><a href="">Python</a></li>
+                      </ul>
+                   </div>
+                 </div>
+             </article>
+          </div>
+
+        <div class="post-flex">
+             <div>2</div>
+             <div>Taskr</div>
+             <div>Web app</div>
+             <div>06.01.24</div>
+              <a href="">+</a>
+             <article class="item">
+                 <div class="post-flex">
+                  <div class="left-column">
+                     <!-- if an image exists -->
+                  </div>
+                   <div class="right-column">
+                      <h3>DiscoBot <span>06.02.24</span></h3>
+                      <p>Discobot plays random music from your selected genre</p>
+                      <a href=""></a>
+                      <ul>
+                        <li><a href="">Github repo</a></li>
+                        <li><a href="">Python</a></li>
+                      </ul>
+                   </div>
+                 </div>
+             </article>
+          </div>
+
+        <div class="post-flex">
+             <div>3</div>
+             <div>Glossie</div>
+             <div>Web app</div>
+             <div>05.18.24</div>
+              <a href="">+</a>
+             <article class="item">
+                 <div class="post-flex">
+                  <div class="left-column">
+                     <!-- if an image exists -->
+                  </div>
+                   <div class="right-column">
+                      <h3>DiscoBot <span>06.02.24</span></h3>
+                      <p>Discobot plays random music from your selected genre</p>
+                      <a href=""></a>
+                      <ul>
+                        <li><a href="">Github repo</a></li>
+                        <li><a href="">Python</a></li>
+                      </ul>
+                   </div>
+                 </div>
+             </article>
+          </div>
+
+
+    </div>
+  </section>
+</main>
+<footer>
+   <section id="contact">
+      <h1>Say what’s up</h1>
+      <form method="post">
+        <input type="text" name="name" placeholder="Name" required>  
+        <input type="text" name="subject" placeholder="Subject" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <textarea name="message" placeholder="Message"></textarea>
+         <input type="button" value="SEND">
+      </form>
+   </section>
+</footer>    
