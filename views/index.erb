@@ -1,12 +1,16 @@
 <%= erb :'partials/header' %>
   <div id="masthead">
-    <h1>A journey in code,art and design</h1>  
+    <h1>A journey in code, life, art and design</h1>  
   </div>
   <div id="page-banner"><span>//Web Developer //Artist //Designer</span></div>  
 <main>
   <section id="about-container">
     <div id="about">
-       <img src="/images/me.gif">
+      <picture>
+          <img src="/images/me.gif" alt="Animated image of me">
+          <source srcset="/images/buddha.png" media="(prefers-reduced-motion: no-preference)"> 
+       </picture>
+      
     <h3>//Identity</h3>  
     <p>
         Hello, I’m Rocky! AKA Code Bebop. I’m a Web Developer/Artist and Designer. I enjoy creating minimialist and illustrative
