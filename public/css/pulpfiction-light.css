@@ -379,9 +379,10 @@ flex-direction: row;
 justify-content: space-between;  
 }
 
-.post-header h3 {
+.post-header h3 a {
 font: normal 600 2em "americane", sans-serif; 
 color: var(--secondaryColor);
+text-decoration: none;
 }
 
 .post-header p {
