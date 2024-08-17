@@ -373,19 +373,19 @@ background: url('../images/splat.png');
 width: 75%;
 }
 
-.post-header {
+.posts-header {
 display: flex;
 flex-direction: row;
 justify-content: space-between;  
 }
 
-.post-header h3 a {
+.posts-header h3 a {
 font: normal 600 2em "americane", sans-serif; 
 color: var(--secondaryColor);
 text-decoration: none;
 }
 
-.post-header p {
+.posts-header p {
 font: normal 700 3em "americane", sans-serif; 
 color: #000;
 }
@@ -430,7 +430,90 @@ font: normal 400 1em "adelle-mono", monospace;
 float: right;
 }
 
+/* Post */
 
+#post {
+width: 75%;
+margin: 10% auto 0 auto;
+}
+
+#post h3 {
+font: normal 600 2em "americane", sans-serif; 
+color: var(--secondaryColor);
+text-decoration: none;
+margin-bottom: 0 !important;
+}
+
+.post {
+padding-bottom: 5%;
+}
+  
+
+.post-header {
+display: flex;
+flex-direction: row;
+justify-content: space-between;  
+margin-top: -25px !important;
+padding-bottom: 1%;
+}
+
+.post-header h3 {
+font: normal 200 1.42em "americane", sans-serif !important;   
+margin: 0 0 25px 0;   
+color: #000 !important;
+}
+
+.post-header p {
+font: normal 700 3em "americane", sans-serif; 
+color: #000;
+}
+
+.post-comments {
+margin-top: 35px;
+}
+
+.post-comments h3 {
+font-size: 1.4em !important;  
+letter-spacing: 1px;
+}
+
+.comment {
+border-bottom: 1px solid var(--secondaryColor);
+}
+
+.comment div {
+display: flex;
+flex-direction: row;
+justify-content: space-between;  
+margin: 35px 0;
+}
+
+.comment div p:nth-child(even) {
+font: normal 900 1.2em "adelle-mono", monospace;  
+color: #000;  
+}
+
+
+/*
+.posts-header h3 a {
+font: normal 600 2em "americane", sans-serif; 
+color: var(--secondaryColor);
+text-decoration: none;
+}
+
+.posts-header p {
+font: normal 700 3em "americane", sans-serif; 
+color: #000;
+}
+*/
+
+
+#comment-flex img {
+width: 48px;
+height: 48px;
+border: 2px solid #fff;
+border-radius: 15px;
+}
 
 
 

@@ -18,6 +18,10 @@ class CodeBebop < Sinatra::Base
   get '/blog' do
     erb :blog
   end
+
+  get '/blog/post/test' do
+    erb :post
+  end  
   
   get '/work' do
 
