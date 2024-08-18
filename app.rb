@@ -22,6 +22,10 @@ class CodeBebop < Sinatra::Base
   get '/blog/post/test' do
     erb :post
   end  
+
+  get '/blog/administrator' do
+    erb :administrator
+  end  
   
   get '/work' do
 

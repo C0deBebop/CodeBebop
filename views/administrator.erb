@@ -1,0 +1,52 @@
+<%= erb :'partials/header' %>
+<main>
+  <section>
+     <h3>//ADD POST</h3>
+     <div id="post-creator">
+        <form method="post">
+           <select name="category">
+            <option value="">Category</option>
+            <option value="">Life</option>
+            <option value="">Code</option>
+            <option value="">Art</option>
+            <option value="">Design</option>
+           </select>
+           <select name="tags">
+            <option value="">Tags</option>
+            <option value="">Python</option>
+            <option value="">Ruby</option>
+            <option value="">JavaScript</option>
+            <option value="">CSS</option>
+            <option value="">PhotoShop</option>
+            <option value="">Animate</option>
+            <option value="">Illustrator</option>
+            <option value="">Sketches</option>
+            <option value="">Illustration</option>
+            <option value="">Paintings</option>
+            <option value="">Oil Pastel</option>
+            <option value="">Nim</option>
+            <option value="">Hypermedia</option>
+            <option value="">C++</option>
+            <option value="">ColdFusion</option>
+            <option value="">PHP</option>
+            <option value="">Go</option>
+            <option value="">Swift</option>
+            <option value="">Kotlin</option>
+            <option value="">Flask</option>
+            <option value="">FastAPI</option>
+            <option value="">Tornado</option>
+            <option value="">Bottle</option>
+            <option value="">Sinatra</option>
+            <option value="">xD</option>
+           </select>
+           <label for="title">Title</label>
+           <input type="text" name="title" placeholder="Title">
+           <label for="post">Post</label>
+           <textarea name="post"></textarea>
+           <label for="code">Code</label>
+           <textarea name="code"></textarea>
+           <input type="button" value="Add post">
+        </form>
+     </div>
+  </section>
+</main>

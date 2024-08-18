@@ -433,6 +433,11 @@ float: right;
 
 /* Post */
 
+#no {
+color: var(--secondaryColor);
+font: normal 400 10em "adelle-mono", monospace; 
+}
+
 #post {
 width: 75%;
 margin: 10% auto 0 auto;
@@ -449,7 +454,6 @@ margin-bottom: 0 !important;
 padding-bottom: 5%;
 }
   
-
 .post-header {
 display: flex;
 flex-direction: row;
@@ -494,24 +498,9 @@ font: normal 900 1.2em "adelle-mono", monospace;
 color: #000;  
 }
 
-
-/*
-.posts-header h3 a {
-font: normal 600 2em "americane", sans-serif; 
-color: var(--secondaryColor);
-text-decoration: none;
-}
-
-.posts-header p {
-font: normal 700 3em "americane", sans-serif; 
-color: #000;
-}
-*/
-
-
 #comment-flex img {
-width: 48px;
-height: 48px;
+width: 38px;
+height: 38px;
 border: 2px solid #fff;
 border-radius: 15px;
 }
