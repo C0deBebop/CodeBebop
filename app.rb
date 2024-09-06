@@ -12,7 +12,7 @@ class CodeBebop < Sinatra::Base
   end  
 
   get '/resume' do
-  
+    erb :resume
   end 
   
   get '/blog' do
