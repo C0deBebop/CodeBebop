@@ -74,6 +74,7 @@ padding: 2% 0 1% 0;
 margin: 0 auto;
 }
 
+
 menu li {
 display: inline;    
 list-style-type: none;
@@ -505,8 +506,241 @@ border: 2px solid #fff;
 border-radius: 15px;
 }
 
-/**/
+/* resume */
 
+#resume {
+width: 70%;
+height: auto;
+margin: 3% auto 0 auto;
+}
+
+
+#resume header {
+display: flex;
+flex-direction: row;
+justify-content: baseline;
+justify-items: center;
+width: 100%;
+height: 200px;
+padding: 0 !important;
+margin: 0 !important;
+}
+
+#resume header h2 {
+font: normal 600 3em "americane", sans-serif; 
+color: var(--secondaryColor);
+text-decoration: none;
+margin: 0;
+text-align: left;
+}
+
+#resume header p:first-of-type {
+color: var(--primaryColor);
+font: normal 400 1.3em "adelle-mono", monospace;
+}
+
+#resume header menu li img {
+width: 18px;
+height: 18px;  
+margin-right: 15px;
+}
+
+#resume header menu li:nth-child(2) img {
+width: 18px;
+height: 12px;  
+}
+
+#resume header menu li:nth-child(3) img {
+width: 14px;
+height: 12px;  
+}
+
+#resume #identity {
+width: 100%;
+padding: 0 !important;
+}
+
+#resume header menu  {
+width: 40%;
+height: 120px;
+padding: 0 !important;
+margin: 25px  0 0 75px !important;
+line-height: 0% !important;
+}
+
+#resume header menu li  {
+display: block !important;
+height: 40px;
+margin: 0 !important;
+}
+
+#resume header menu li a {
+color: var(--primaryColor);
+font: normal 400 0.9em "adelle-mono", monospace;
+}
+
+#resume-flex {
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+
+}  
+
+#resume-flex main {
+width: 70%;  
+height: 800px;
+padding: 0 5% 0 0;
+}
+
+#resume-flex article {
+margin-bottom: 50px; 
+border: none; 
+}
+
+#resume-flex article h4 {
+font: normal 600 1em "adelle-mono", monospace; 
+color: var(--secondaryColor);
+letter-spacing: 0.1pc;
+margin: 5px 0 10px 0;
+} 
+
+#resume-flex article p:first-of-type {
+color: #000;
+font: normal 700 1em "adelle-mono", monospace;
+margin-bottom: 10px;
+}
+
+#resume-flex article p:last-of-type {
+color: var(--primaryColor);
+font: normal 400 0.8em "adelle-mono", monospace; 
+line-height: 2em;
+margin-bottom: 10px;
+}
+
+nav {
+width: 25%; 
+padding: 1%;
+}
+
+nav menu {
+margin-bottom: 35px; 
+height: auto; 
+}
+
+nav h4 {
+font: normal 600 1em "adelle-mono", monospace; 
+color: var(--secondaryColor);
+margin-bottom: 15px;  
+}
+
+
+nav menu h4 {
+font: normal 600 1em "adelle-mono", monospace; 
+color: #000; 
+margin-bottom: 15px;  
+}
+
+nav menu li {
+display: block;  
+color: var(--primaryColor); 
+font: normal 800 0.8em "adelle-mono", monospace; 
+margin-bottom: 10px;
+}
+
+nav menu:last-of-type li {
+display: block;
+margin-top: 0 !important;
+}
+
+@media(min-width: 2000px){
+#resume {
+width: 45%;
+}
+
+#resume header menu{
+width: 40%;
+}
+
+#resume header menu li a {
+font: normal 400 0.7em "adelle-mono", monospace;
+}
+
+#resume-flex main { 
+width: 70%;
+}
+
+#resume-flex article h4 {
+font: normal 900 1em "adelle-mono", monospace; 
+}
+
+#resume-flex article p:first-of-type {
+font: normal 700 0.9em "adelle-mono", monospace;
+}
+
+#resume-flex article p:last-of-type {
+font: normal 100 0.9em "adelle-mono", monospace;
+line-height: 2.2em;
+}
+}
+
+@media(max-width: 1600px){
+#resume {
+width: 95%;
+}
+#resume header menu  {
+width: 40%;
+} 
+#resume header menu li a {
+font: normal 400 0.8em "adelle-mono", monospace;
+}
+
+}
+
+@media(max-width: 1024px){
+
+#resume {
+margin-top: 7%;
+} 
+
+#resume-flex {
+display: flex;
+flex-direction: column;
+} 
+
+#resume header {
+display: flex;
+flex-direction: column;
+width: 100%;
+height: 275px;
+} 
+
+#resume header menu  {
+width: 100%;
+margin: 50px 0 0 0 !important;
+}
+
+#resume-flex main {
+width: 95%; 
+height: auto; 
+}
+
+nav {
+width: 100%; 
+}
+
+}
+
+
+@media(max-width: 800px){
+#resume header h2 {
+font: normal 600 2em "americane", sans-serif; 
+}
+
+#resume header p:first-of-type {
+font: normal 400 1em "adelle-mono", monospace;
+}
+
+}
 
 
 @keyframes scrollingAnimation {
